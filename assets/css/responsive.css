@@ -21,4 +21,10 @@
   .heading-text{
     font-size: 1.6rem;
   }
+  .tour{
+    padding: 0 8px;
+  }
+  .tour p{
+    padding: 0;
+  }
 }
