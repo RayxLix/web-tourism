@@ -1,6 +1,7 @@
 @media (max-width:740px){
   .header-nav-item {
     font-size: 1.2rem;
+    margin-left: 8px;
   }
   .slider-text{
     bottom: 10px;
