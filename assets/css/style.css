@@ -32,7 +32,6 @@ padding-left: 50px;
   font-weight: 500;
   margin-left: 25px;
   position: relative;
-  
 }
 .header-nav-item a::after{
   content: '';
@@ -53,7 +52,7 @@ padding-left: 50px;
   
 }
 .header-nav-item a{
-  color: rgba(0, 0, 0, 0.742);
+  color: black;
 }
 /* slider */
 
@@ -159,9 +158,6 @@ padding-left: 50px;
 }
 
 
-.footer-section{
-
-}
 
 .info-footer{
   text-align: center;
@@ -170,10 +166,6 @@ padding-left: 50px;
 .info-footer > p{
   font-weight: 600;
   font-size: 18px;
-}
-.swiper {
-  /* width: 600px;
-  height: 300px; */
 }
 .swiper-slide img {
   display: block;

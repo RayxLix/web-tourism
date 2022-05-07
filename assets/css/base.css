@@ -118,6 +118,9 @@ table, th, td {
 .photo-lyhai{
   background: url(../imgs/2.jpg) center center /cover no-repeat;
 }
+.photo-quyenlinh{
+  background: url(../imgs/quyenlinh.jpg) center center /cover no-repeat;
+}
 .photo-2{
   background: url(../imgs/toong.jpg) center center /cover no-repeat;
 }
