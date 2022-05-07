@@ -22,9 +22,9 @@
     font-size: 1.6rem;
   }
   .tour{
-    padding: 0 8px;
+    padding: 0 8px !important;
   }
-  .tour p{
-    padding: 0;
+  .time-line, .tour p{
+    padding: 0 !important;
   }
 }
