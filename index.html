@@ -10,114 +10,293 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     
-    <link rel="stylesheet" href="./assets/base.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/styleforapp.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <script src="https://kit.fontawesome.com/c2f6cce2fd.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <main>
+      <!-- header -->
       <div id="header">
         <div class="header__wraper container">
           <div class="header__logo">
-            <img src="./assets//imgs/logo1.png" alt="" />
+            <img src="./assets//imgs/logoCompany.png" alt="" />
           </div>
           <div class="header__navigate">
             <ul class="header__list">
-              <li class="header-nav-item"><a href="">Giá Tour</a></li>
+              <li class="header-nav-item"><a href="#price">Giá Tour</a></li>
               <li class="header-nav-item">
-                <a href="">Liên Hệ</a>
+                <a href="#info">Liên Hệ</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
+      <!-- company -->
+      <!-- company -->
+      <div id="info" class="info-company">
+        <h2 >Công Ty TNHH MTV Du Lịch Tiền Giang Tourism
+        </h2>
+        <p>Mã Số Thuế: 1201467780</p>
+        <p>Đ/C: Số 8 – đường 30/4 – P1 –TP.Mỹ Tho – Tiền Giang   (Bến tàu thủy du lịch Mỹ Tho)</p>
+        <p>ĐT: <a href="tel:0848164616" style="color: blue">0848 164 616</a> – (Thanh_ Điều hành)</p>
+        <p>Facebook: <a href="https://www.facebook.com/conphungthoison79" style="color: blue;">https://www.facebook.com/conphungthoison79</a></p>
+        <p>STK:   0671000429821 – VIETCOMBANK – CN: TIEN GIANG</p>
+      </div>
+      <!-- slider -->
       <div id="slider-main">
         <div class="slider-wraper">
-          <div class="silder-text">
-            <div class="silder-text-wraper">
+          <div class="slider-text">
+            <div class="slider-text-wraper">
               <h1>Du Lịch Thới Sơn - Cồn Phụng</h1>
-              <h2>Giá hấp dẫn: 60.000 Vnd/1 người*</h2>
+              <h2>Giá hấp dẫn: 80.000 Vnd/1 người*</h2>
               <button>Liên hệ ngay</button>
             </div>
           </div>
         </div>
       </div>
+      <!-- content -->
       <div id="content-section">
         <div class="container content-wraper">
           <div class="main-content">
           
 
-              <div class="sub-content section">
-                <h2>Giá Vé Tham Quan Du Lịch</h2>
-                
-                <br>
-                <p>Từ 1 đến 4 khách: 150.000 Vnd/ Người</p>
-                <p>Từ 4 đến 9 khách: 120.000 Vnd/ Người</p>
-                <p>Từ 10 đến 19 khách: 90.000 Vnd/ Người</p>
-                <p>Từ 20 đến 45 khách: 60.000 Vnd/ Người</p>
-                <br>
-                <p>Giá vé bao gồm: Thuyền Lớn,Hướng Dẫn Viên Thưởng Thức Trà Mật Ong, Dùng Trái Cây, Thưởng Thức Đờn  Ca Tài Tử, Xe Ngựa, Tham Gia Xuồng Ba Lá,... </p>
-                <br>
-                <p>Giá vé không bao gồm: vé tham quan cồn Phụng(Quí khách có thể tự thanh toán tại quầy vé)</p>
+              <div id="price" class="sub-content section">
+                <h2 class="heading-text-section">Giá Vé Tham Quan Cồn Phụng - Cồn Thới Sơn</h2>
+                <div class="price-tour">
+
+                  <br>
+                  <p>Từ 1 đến 3 khách: 550.000 Vnd/ Trọn Gói</p>
+                  <p>Từ 4 đến 9 khách: 150.000 Vnd/ Vé</p>
+                  <p>Từ 10 đến 19 khách: 95.000 Vnd/ Vé</p>
+                  <p>Từ 20 đến 45 khách: 80.000 Vnd/ Vé</p>
+                  
+                  <p style="color: #e60808;">Đặc Biệt Ưu Đãi: Bé dưới 5 tuổi miễn phí vé. Từ 5 đến 9 tuổi tính 50% giá vé.</p>
+                  <p style="color: #e60808;">Tặng ngay 1 vé miễn phí cho người đặt tour(áp dụng cho đoàn 10 khách trở lên).</p>
+                  <br>
+                  <div class="total-service">
+                    <p>Giá vé bao gồm:
+                      <ul style="list-style-type:decimal;">
+                        <li>Hướng dẫn viên</li>
+                        <li>Thuyền lớn trên sông</li>
+                        <li>Thưởng thức trái cây</li>
+                        <li>Giao lưu đờn ca tài tử</li>
+                        <li>Uống trà mật ong</li>
+                        <li>Đi xuồng chèo trong rạch dừa nước</li>
+                        <li>Xe ngựa trên đường làng</li>
+                        <li>Vé tham quan cồn Phụng</li>
+                        <li>Tham quan lò kẹo dừa</li>
+                        <li>Phí cầu tàu</li>
+                        <li>Bảo hiểm du lịch</li>
+                      </ul>
+                    </p>
+                  </div>
+                    
+                    
+                   
+                  <p style="color:#e60808;">Giá vé không bao gồm mua sắm và ăn trưa.</p>
+                  
+                </div>
              
               </div>
 
               
             <div class="tour section">
-              <h2 class="content-heading">
-                Tour du lịch Cồn Thới Sơn Tiền Giang giá rẻ – Khám phá cù lao
-                Thới Sơn
+              <h2 class="content-heading heading-text-section">
+                Tour du lịch Cồn Phụng Bến Tre giá rẻ – Khám phá cù lao
+                Tứ Linh: Long, Lân, Qui, Phụng.
               </h2>
-              <div class="photo-1 content-format-img"></div>
+              
 
               <!-- lịch trình tour -->
-              <p></p>
-                Hướng dẫn viên công ty đón khách tại Bến tàu du lịch Mỹ Tho: số
-                8 đường 30/4, TP. Mỹ Tho, Tiền Giang. Du thuyền trên sông, ngắm
-                nhìn các làng nuôi cá bè trên sông và 4 cù lao Tứ linh: Long –
-                Lân – Quy – Phụng.
-                <br/>Thuyền ghé Cù lao Thới Sơn để thăm nhà của
-                người dân miệt vườn nuôi ong mật và thưởng thức sản phẩm làm từ
-                con ong miễn phí như:<ul><li>Mật Ong</li>
-                <li>Phấn Hoa</li><li>Sữa Ong Chúa</li></ul>
-              </p>
+              <div class="time-line">
+
+                <p></p>
+                &emsp; Hướng dẫn viên công ty đón khách tại Bến tàu du lịch Mỹ Tho: số
+                  8 đường 30/4, Phường 1, TP. Mỹ Tho, Tiền Giang. Du thuyền trên sông Mekong, ngắm
+                  nhìn các làng nuôi cá bè trên sông và 4 cù lao Tứ linh: Long –
+                  Lân – Quy – Phụng.
+                  <div class="photo-1 content-format-img"></div>
+                  <div class="photo-02 content-format-img"></div>
+
+
+                  <br>
+                  <br/>&emsp;Thuyền ghé Cù lao Thới Sơn để thăm nhà của
+                  người dân miệt vườn nuôi ong mật và thưởng thức sản phẩm làm từ
+                  con ong miễn phí như:<ul><li>&emsp;&emsp;Mật Ong</li>
+                  <li>&emsp;&emsp;Phấn Hoa</li><li>&emsp;&emsp;Sữa Ong Chúa</li></ul>
+                </p>
+              </div>
               <div class="photo-2 content-format-img"></div>
-              <p>Chụp ảnh lưu niệm cùng chú trăn thân thiện.</p>
+              <p>&emsp;Chụp ảnh lưu niệm cùng chú trăn thân thiện.</p>
               <div class="photo-3 content-format-img"></div>
-              <p>Tham quan và chụp ảnh vườn trái cây</p>
+              <p>&emsp;Tham quan và chụp ảnh vườn trái cây</p>
               <div class="photo-4 content-format-img"></div>
-              <p>Thưởng thức 5 loại trái cây theo mùa tại nhà người dân.</p>
+              <p>&emsp;Thưởng thức 5 loại trái cây theo mùa tại nhà người dân.</p>
               <div class="photo-5 content-format-img"></div>
-              <p>Tìm hiểu nét văn hóa truyền thống của người dân Nam Bộ qua từng câu hát, nhịp đờn của Đờn Ca Tài Tử. </p>
+              <p>&emsp;Tìm hiểu nét văn hóa truyền thống của người dân Nam Bộ qua từng câu hát, nhịp đờn của các cô gái Đờn Ca Tài Tử. </p>
               <div class="photo-6 content-format-img"></div>
-              <p>Đi xe ngựa trên đường làng. Ngắm nhìn khung cảnh quê mộc mạc giản dị.</p>
+              <p>&emsp;Đi xe ngựa trên đường làng. Ngắm nhìn khung cảnh làng quê mộc mạc giản dị.</p>
               <div class="photo-7 content-format-img"></div>
-              <p>Chèo xuồng trong rạch dừa nước. Hai hàng cây xanh rì rợp bóng</p>
+              <p>&emsp;Chèo xuồng trong rạch dừa nước. Hai hàng dừa nước rợp bóng xanh tươi.  </p>
               <div class="photo-8 content-format-img"></div>
-              <p>Tham quan lò sản xuất kẹo dừa ngon bật nhất tại Bến Tre</p>
+              <p>&emsp;Tham quan lò sản xuất kẹo dừa đặc sản tỉnh Bến Tre</p>
               <div class="photo-9 content-format-img"></div>
-              <p>Lên tàu lớn đến chinh phục cồn Phụng. Nơi có ông Nguyễn Thành Nam khi xưa làm mưa làm gió Miền Tây với những câu chuyện thú vị, lạ kỳ.</p>
+              <p>&emsp;Lên tàu lớn đến tỉnh Bến Tre khám phá cù lao Phụng. Nơi có ông đạo dừa tên Nguyễn Thành Nam khi xưa làm mưa làm gió Miền Tây với những câu chuyện thú vị, lạ kỳ.</p>
+              <div class="photo-15 content-format-img"></div>
+
               <div class="photo-10 content-format-img"></div>
-              <p>Cồn phụng thiên đường sống ảo.</p>
+              <p>&emsp;Cồn phụng thiên đường sống ảo.</p>
               <div class="photo-11 content-format-img"></div>
-              <div class="photo-12 content-format-img"></div>
+              
               <div class="photo-13 content-format-img"></div>
+              <div class="content-format-img format-slider">
+                <div class="swiper-container"> 
+                  <div class="swiper-wrapper" id="gallery_wrapper">
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (1).png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (2).png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (3).png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (4).png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (5).png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (6).png"></div>
+                  </div> 
+                </div> 
+              </div>
+
+  
+
             </div>
 
             <div class="another-service section">
-              <h3>Các Dịch Vụ Lựa Chọn Thêm( Liên Hệ Qua Zalo Để Được Tư Vấn)</h3>
+              <h3 class="heading-text-section">Các Dịch Vụ Lựa Chọn Thêm( Liên Hệ Qua Zalo Để Được Tư Vấn)</h3>
               <div class="catching-fish">
-                <h4>Tát Mương Bắt Cá</h4>
+                <h4 class="heading-text">Tát Mương Bắt Cá Và Các Trò Chơi Dân Gian</h4>
+                <div class="content-format-img format-slider">
+                  <div class="swiper-container"> 
+                    <div class="swiper-wrapper" id="gallery_wrapper">
+                      <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (4)01.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (3)02.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (2)03.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/Thiết kế chưa có tên (1)04.png"></div>    
+                      <div class="swiper-slide"><img src= "./assets/imgs/xe dap con phung.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/sua11.jpg"></div>                
+                    </div> 
+                  </div> 
+                </div>
               </div>
-              <div class="restaurant"><h4>Thưởng Thức Đặc Sản Tại Nhà Hàng Tại Cồn</h4></div>
+              <div >
+                <h4 class="heading-text">Thưởng Thức Các Món Ăn Đặc Sản Tại Nhà Hàng Tại Nhà Hàng</h4>
+                <div class="content-format-img format-slider">
+                  <div class="swiper-container"> 
+                    <div class="swiper-wrapper" id="gallery_wrapper">
+                      <div class="swiper-slide"><img src= "./assets/imgs/s203.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/s204.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/001.png"></div>
+                      <div class="swiper-slide"><img src= "./assets/imgs/003.png"></div>                    
+                    </div> 
+                  </div> 
+                </div>
 
+              </div>
+             
+
+             <div class="menu-restaurent">
+               <h4 class="heading-text">thực đơn ăn trưa</h4>
+                 <div class="row">
+                   <div class="col col-third menu-1">
+                    <h5 style="font-size: 20px; font-weight: 600; margin-bottom: 12px;">Thực đơn 1</h5>
+                 <ul>
+                   <li>Cá tai tượng chiên xù.</li>
+                   <li>Gà nướng Xôi Chiên Phồng</li>
+                   <li>Lẩu chua cá hú hoặc cá diêu hồng
+                  </li>
+                   <li>Rau muống xào tỏi
+                  </li>
+                   <li>Gỏi củ hủ dừa
+                  </li>
+                   <li>Cơm trắng
+                  </li>
+                   <li>Trà đá + tráng miệng
+                  </li>
+                 </ul>
+                   </div>
+
+                   <div class="col col-third menu-2">
+                    <h5 style="font-size: 20px; font-weight: 600; margin-bottom: 12px;">Thực đơn 2</h5>
+                 <ul>
+                   <li>Cá lóc nướng trui ( hoặc cá tai tượng chiên xù )
+                  </li>
+                   <li>Bánh xèo
+                  </li>
+                   <li>Gỏi củ hủ dừa
+
+                  </li>
+                   <li>Lẩu gà lá giang
+                  </li>
+                   <li>Cá hú kho tiêu
+                  </li>
+                   <li>rau muống xào tỏi
+                  </li>
+                   <li>Trà đá + tráng miệng
+                  </li>
+                 </ul>
+                   </div>
+
+                   <div class="col col-third menu-3">
+                    <h5 style="font-size: 20px; font-weight: 600; margin-bottom: 12px;">Thực đơn 3</h5>
+                 <ul>
+                   <li>Cá tai tượng chiên xù.</li>
+                   <li>Tôm hấp nước dừa</li>
+                   <li>lẩu gà lá giang
+                  </li>
+                   <li>cá kèo kho tiêu
+                  </li>
+                   <li>rau luột kho quẹt
+                  </li>
+                   <li>rau muống xào tỏi
+                  </li>
+                   <li>Trà đá + tráng miệng
+                  </li>
+                 </ul>
+                   </div>
+                 </div>
+                 
+               
+               
             </div>
+            <div class="video section">
+              <h4 class="heading-text">Nếu Quí Khách Đã Đi Cù lao phung nhiều lần quý khách có thể đổi địa điểm là đi thêm 1 chiếc đò vào rạch qua đất liền Bến Tre</h4>
+              <div class="container-video content-format-img">
+                <video width="700px" height="auto" controls>
+                  <source src="./assets/imgs/video02.mp4"> 
+                </video>
+              </div>
+             </div>
+
+            <div class="karaoke">
+              <h4 class="heading-text">
+                Karaoke, Tổ Chức tiệc trên tàu, tham quan vườn trái cây
+              </h4>
+              <div class="content-format-img format-slider">
+                <div class="swiper-container"> 
+                  <div class="swiper-wrapper" id="gallery_wrapper">
+                    <div class="swiper-slide"><img src= "./assets/imgs/karaoke002.png"></div>
+                    <div class="swiper-slide"><img src= "./assets/imgs/karaoke001.png "></div>
+                                     
+                  </div> 
+                </div> 
+              </div>
+            </div>
+
+            <h4 class="goodbye">Hân Hạnh được đón tiếp và Phục vụ quý khách</h4>
           </div>
         </div>
       </div>
       <div class="app-service">
-       
+        <!-- phone -->
             <div class="phone-service">
               <div class="hotline-phone-ring-wrap">
                 <div class="hotline-phone-ring">
@@ -130,198 +309,16 @@
                     </div>
                 </div>
                 <div class="hotline-bar">
-                    <a href="tel:0989333069">
-                        <span class="text-hotline">0846 191 401</span>
+                    <a href="tel:0848164616">
+                        <span class="text-hotline">0848 164 616</span>
                     </a>
                 </div>
             </div>
-            <style>
-            .hotline-phone-ring-wrap {
-              position: fixed;
-              bottom: 0;
-              left: 0;
-              z-index: 99;
-            }
-            .hotline-phone-ring {
-              position: relative;
-              visibility: visible;
-              background-color: transparent;
-              width: 110px;
-              height: 110px;
-              cursor: pointer;
-              z-index: 11;
-              -webkit-backface-visibility: hidden;
-              -webkit-transform: translateZ(0);
-              transition: visibility .5s;
-              left: 0;
-              bottom: 0;
-              display: block;
-            }
-            .hotline-phone-ring-circle {
-              width: 85px;
-              height: 85px;
-              top: 10px;
-              left: 10px;
-              position: absolute;
-              background-color: transparent;
-              border-radius: 100%;
-              border: 2px solid #e60808;
-              -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
-              animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
-              transition: all .5s;
-              -webkit-transform-origin: 50% 50%;
-              -ms-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-              opacity: 0.5;
-            }
-            .hotline-phone-ring-circle-fill {
-                width: 55px;
-              height: 55px;
-              top: 25px;
-              left: 25px;
-              position: absolute;
-              background-color: rgba(230, 8, 8, 0.7);
-              border-radius: 100%;
-              border: 2px solid transparent;
-              -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
-              animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
-              transition: all .5s;
-              -webkit-transform-origin: 50% 50%;
-              -ms-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-            }
-            .hotline-phone-ring-img-circle {
-                background-color: #e60808;
-                width: 33px;
-              height: 33px;
-              top: 37px;
-              left: 37px;
-              position: absolute;
-              background-size: 20px;
-              border-radius: 100%;
-              border: 2px solid transparent;
-              -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
-              animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
-              -webkit-transform-origin: 50% 50%;
-              -ms-transform-origin: 50% 50%;
-              transform-origin: 50% 50%;
-              display: -webkit-box;
-              display: -webkit-flex;
-              display: -ms-flexbox;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            }
-            .hotline-phone-ring-img-circle .pps-btn-img {
-                display: -webkit-box;
-              display: -webkit-flex;
-              display: -ms-flexbox;
-              display: flex;
-            }
-            .hotline-phone-ring-img-circle .pps-btn-img img {
-                width: 20px;
-                height: 20px;
-            }
-            .hotline-bar {
-              position: absolute;
-              background: rgba(230, 8, 8, 0.75);
-              height: 40px;
-              width: 180px;
-              line-height: 40px;
-              border-radius: 3px;
-              padding: 0 10px;
-              background-size: 100%;
-              cursor: pointer;
-              transition: all 0.8s;
-              -webkit-transition: all 0.8s;
-              z-index: 9;
-              box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
-              border-radius: 50px !important;
-              /* width: 175px !important; */
-              left: 33px;
-              bottom: 37px;
-            }
-            .hotline-bar > a {
-              color: #fff;
-              text-decoration: none;
-              font-size: 15px;
-              font-weight: bold;
-              text-indent: 50px;
-              display: block;
-              letter-spacing: 1px;
-              line-height: 40px;
-              font-family: Arial;
-            }
-            .hotline-bar > a:hover,
-            .hotline-bar > a:active {
-              color: #fff;
-            }
-            @-webkit-keyframes phonering-alo-circle-anim {
-              0% {
-                -webkit-transform: rotate(0) scale(0.5) skew(1deg);
-                -webkit-opacity: 0.1;
-              }
-              30% {
-                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
-                -webkit-opacity: 0.5;
-              }
-              100% {
-                -webkit-transform: rotate(0) scale(1) skew(1deg);
-                -webkit-opacity: 0.1;
-              }
-            }
-            @-webkit-keyframes phonering-alo-circle-fill-anim {
-              0% {
-                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
-                opacity: 0.6;
-              }
-              50% {
-                -webkit-transform: rotate(0) scale(1) skew(1deg);
-                opacity: 0.6;
-              }
-              100% {
-                -webkit-transform: rotate(0) scale(0.7) skew(1deg);
-                opacity: 0.6;
-              }
-            }
-            @-webkit-keyframes phonering-alo-circle-img-anim {
-              0% {
-                -webkit-transform: rotate(0) scale(1) skew(1deg);
-              }
-              10% {
-                -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
-              }
-              20% {
-                -webkit-transform: rotate(25deg) scale(1) skew(1deg);
-              }
-              30% {
-                -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
-              }
-              40% {
-                -webkit-transform: rotate(25deg) scale(1) skew(1deg);
-              }
-              50% {
-                -webkit-transform: rotate(0) scale(1) skew(1deg);
-              }
-              100% {
-                -webkit-transform: rotate(0) scale(1) skew(1deg);
-              }
-            }
-            @media (max-width: 768px) {
-              .hotline-bar {
-                display: none;
-              }
-            }
-            </style>
             </div>
-          
-            <div class="zalo-service">
+        <!-- zalo -->
+          <div class="zalo-service">
               <div class="social-button">
                 <div class="social-button-content">
-                   
-                    <a href="https://m.me/100009622634072/" target="_blank" class="mes">
-                      <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/fb.png" alt="Chat Messenger">
-                      </a>
                     <a href="http://zalo.me/0846191401" target="_blank" class="zalo">
                        <img src="https://nocodebuilding.com/wp-content/uploads/2020/07/zl.png" alt="Chat Zalo">
                       </a>
@@ -377,18 +374,24 @@
               </style>
             </div>           
       </div>
-      
+
+      <!-- footer -->
       <div id="footer-section section">
         <div class="info-footer">
-          <h2>Công Ty TNHH MTV Du Lịch Tiền Giang Tourism
+          <h2 >Công Ty TNHH MTV Du Lịch Tiền Giang Tourism
           </h2>
           <p>Mã Số Thuế: 1201467780</p>
           <p>Đ/C: Số 8 – đường 30/4 – P1 –TP.Mỹ Tho – Tiền Giang   (Bến tàu thủy du lịch Mỹ Tho)</p>
-          <p>ĐT: <a href="tel:0846191401" style="color: blue;">0846191401</a> – (Thanh_ Điều hành)</p>
+          <p>ĐT: <a href="tel:0848164616" style="color: blue">0848 164 616</a> – (Thanh_ Điều hành)</p>
           <p>Facebook: <a href="https://www.facebook.com/conphungthoison79" style="color: blue;">https://www.facebook.com/conphungthoison79</a></p>
           <p>STK:   0671000429821 – VIETCOMBANK – CN: TIEN GIANG</p>
+          <p style="color: red;">Lưu Ý: Có rất nhiều Công Ty Khác nhau vui lòng liên hệ trước để được phục vụ tốt nhất🤗</p>
+          <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d490.6085200208019!2d106.36237061098133!3d10.352425300000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310aaf992fc42ce5%3A0x4fa354bd03f9ba51!2zSG9hIHTGsMahaSBUaeG7gW4gR2lhbmc!5e0!3m2!1svi!2s!4v1651891964054!5m2!1svi!2s"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
+
+      <!-- script -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
       <script src="./assets/main.js"></script>
     </main>
   </body>

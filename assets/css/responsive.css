@@ -1,0 +1,17 @@
+@media (max-width:740px){
+  .header-nav-item {
+    font-size: 1.2rem;
+  }
+  .slider-text{
+    bottom: 10px;
+    left: 40px;right: 40px;
+  }
+  .slider-text h1, .slider-text h2{
+    font-size: 1rem;
+  }
+  .slider-text button{
+    padding: 4px;
+    font-size: 1rem;
+    margin-top: 8px;
+  }
+}

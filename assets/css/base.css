@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+html,body{
+  overflow-x: hidden;
+  width: 100%;
+}
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+ 
+}
+:root {
+  --color-primiry: #1e90ff;
+  --color-text: #e11c1c;
+}
+.clear{
+  clear: both;
+}
+.mt-16{
+  margin-top: 16px;
+}
+.btn{
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #ccc;
+  color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x:visible;
+}
+a
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border:1px solid black;
+}
+@keyframes drop-down{
+  from{
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.row{
+  margin-left: -8px;
+  margin-right: -8px;
+  overflow: hidden;
+}
+.col{
+  float: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.col-full{
+  width: calc(100%);
+
+}
+.col-half{
+  width: calc(100%/2);
+
+}
+.col-third{
+  width: calc(100%/3);
+}
+
+.photo-1{
+  background: url(/assets/imgs/sua001.png) center center /cover no-repeat;
+  
+}
+.photo-02{
+  background: url(/assets/imgs/sua002.png) center center /cover no-repeat;
+  
+}
+.photo-2{
+  background: url(/assets/imgs/toong.jpg) center center /cover no-repeat;
+}
+.photo-3{
+  background: url(/assets/imgs/tranmatong.jpg) center center /cover no-repeat;
+}
+.photo-4{
+  background: url(/assets/imgs/vuon\ trai\ cay\ thoi\ son.jpg) center center /cover no-repeat;
+}
+.photo-5{
+  background: url(/assets/imgs/sua0003.png) center center /cover no-repeat;
+}
+.photo-6{
+  background: url(/assets/imgs/sua0005.png) center center /cover no-repeat;
+}
+.photo-7{
+  background: url(/assets/imgs/xxe\ ngua\ thoi\ son.jpg) center center /cover no-repeat;
+}
+.photo-8{
+  background: url(/assets/imgs/sua006.png) center center /cover no-repeat;
+}
+.photo-9{
+  background: url(/assets/imgs/keo\ dua\ ben\ tre.jpg) center center /cover no-repeat;
+}
+.photo-10{
+  background: url(/assets/imgs/tau\ di\ con\ phung.jpg) center center /cover no-repeat;
+}
+.photo-11{
+  background: url(/assets/imgs/tau\ sang\ con\ phung\ ben\ tre.jpg) center center /cover no-repeat;
+}
+
+.photo-13{
+  background: url(/assets/imgs/con\ phung\ ben\ tre\ 03.jpg) center center /cover no-repeat;
+}
+.photo-14{
+  background: url(/assets/imgs/con\ phung\ ben\ tre\ 02.jpg) center center /cover no-repeat;
+}
+.photo-15{
+  background: url(/assets/imgs/sua07.jpg) center center /cover no-repeat;
+}
