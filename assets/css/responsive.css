@@ -14,4 +14,10 @@
     font-size: 1rem;
     margin-top: 8px;
   }
+  .time-line, .tour > p {
+    font-size: 1rem;
+  }
+  .heading-text{
+    font-size: 1.6rem;
+  }
 }
