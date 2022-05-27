@@ -107,57 +107,57 @@ table, th, td {
   width: calc(100%/3);
 }
 
-.photo-1{
-  background: url(../imgs/sua001.png) center center /cover no-repeat;
-  
-}
-.photo-02{
-  background: url(../imgs/sua002.png) center center /cover no-repeat;
-  
-}
 .photo-lyhai{
-  background: url(../imgs/2.jpg) center center /cover no-repeat;
+  background: url(../img-min/03-price-section.jpg) center center /cover no-repeat;
 }
 .photo-quyenlinh{
-  background: url(../imgs/quyenlinh.jpg) center center /cover no-repeat;
+  background: url(../img-min/02-price-section.jpg) center center /cover no-repeat;
 }
+
+.photo-1{
+  background: url(../img-min/04-timeline.png) center center /cover no-repeat;
+  
+}
+
 .photo-2{
-  background: url(../imgs/toong.jpg) center center /cover no-repeat;
+  background: url(../img-min/05-timeline.jpg) center center /cover no-repeat;
+  
 }
 .photo-3{
-  background: url(../imgs/chup\ anh\ voi\ tran\ thoi\ son.png) center center /cover no-repeat;
+  background: url(../img-min/06-timeline.jpg) center center /cover no-repeat;
 }
 .photo-4{
-  background: url(../imgs/vuon\ trai\ cay\ thoi\ son.jpg) center center /cover no-repeat;
+  background: url(../img-min/07-timeline.png) center center /cover no-repeat;
 }
 .photo-5{
-  background: url(../imgs/sua0003.png) center center /cover no-repeat;
+  background: url(../img-min/08-timeline.jpg) center center /cover no-repeat;
 }
 .photo-6{
-  background: url(../imgs/sua0005.png) center center /cover no-repeat;
+  background: url(../img-min/09-timeline.png) center center /cover no-repeat;
 }
 .photo-7{
-  background: url(../imgs/xxe\ ngua\ thoi\ son.jpg) center center /cover no-repeat;
+  background: url(../img-min/10-timeline.png) center center /cover no-repeat;
 }
 .photo-8{
-  background: url(../imgs/sua006.png) center center /cover no-repeat;
+  background: url(../img-min/11-timeline.jpg) center center /cover no-repeat;
 }
 .photo-9{
-  background: url(../imgs/keo\ dua\ ben\ tre.jpg) center center /cover no-repeat;
+  background: url(../img-min/12-timeline.png) center center /cover no-repeat;
 }
 .photo-10{
-  background: url(../imgs/tau\ di\ con\ phung.jpg) center center /cover no-repeat;
+  background: url(../img-min/13-timeline.jpg) center center /cover no-repeat;
 }
 .photo-11{
-  background: url(../imgs/tau\ sang\ con\ phung\ ben\ tre.jpg) center center /cover no-repeat;
+  background: url(../img-min/14-timeline.jpg) center center /cover no-repeat;
+}
+
+.photo-12{
+  background: url(../img-min/15-timeline.jpg) center center /cover no-repeat;
 }
 
 .photo-13{
-  background: url(../imgs/con\ phung\ ben\ tre\ 03.jpg) center center /cover no-repeat;
+  background: url(../img-min/16-timeline.jpg) center center /cover no-repeat;
 }
 .photo-14{
-  background: url(../imgs/con\ phung\ ben\ tre\ 02.jpg) center center /cover no-repeat;
-}
-.photo-15{
-  background: url(../imgs/sua07.jpg) center center /cover no-repeat;
+  background: url(../img-min/17-timeline.jpg) center center /cover no-repeat;
 }
