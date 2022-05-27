@@ -7,29 +7,29 @@ var mySwiper = new Swiper(".swiper-container", {
   loop: true,
 });
 
-function loadingImagesLazy(img) {
-  const url = img.getAttribute("lazy-src");
-  img.setAttribute("src", url);
-}
+// function loadingImagesLazy(img) {
+//   const url = img.getAttribute("lazy-src");
+//   img.setAttribute("src", url);
+// }
 
-function ready() {
-  if ("IntersectionObserver" in window) {
-    // support
-    var lazyImages = document.querySelectorAll("[lazy-src]");
+// function ready() {
+//   if ("IntersectionObserver" in window) {
+//     // support
+//     var lazyImages = document.querySelectorAll("[lazy-src]");
 
-    let observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          loadingImagesLazy(entry.target);
-        }
-      });
-    });
+//     let observer = new IntersectionObserver((entries) => {
+//       entries.forEach((entry) => {
+//         if (entry.isIntersecting) {
+//           loadingImagesLazy(entry.target);
+//         }
+//       });
+//     });
 
-    lazyImages.forEach((img) => {
-      observer.observe(img);
-    });
-  } else {
-    //get bounding
-  }
-}
-document.addEventListener("DOMContentLoaded", ready);
+//     lazyImages.forEach((img) => {
+//       observer.observe(img);
+//     });
+//   } else {
+//     //get bounding
+//   }
+// }
+// document.addEventListener("DOMContentLoaded", ready);
