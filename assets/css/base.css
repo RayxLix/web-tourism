@@ -161,3 +161,23 @@ table, th, td {
 .photo-14{
   background: url(../imgs1/17-timeline.jpg) center center /cover no-repeat;
 }
+.photo-thucdon01{
+  background: url(../imgs1/6e8b1e8f-ca-tai-tuong-chien-xu-8.webp) center center /cover no-repeat;
+}
+.photo-thucdon02{
+  background: url(../imgs1/tom-cang-xanh.jpg) center center /cover no-repeat;
+}
+
+.photo-thucdon03{
+  background: url(../imgs1/banh-xeo.jpeg) center center /cover no-repeat;
+}
+.capital{
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+}
+.capital>li{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}

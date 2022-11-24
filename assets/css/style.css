@@ -32,6 +32,10 @@ padding-left: 50px;
   font-weight: 500;
   margin-left: 25px;
   position: relative;
+
+}
+.header-nav-item a{
+  color: #1206fa !important;
 }
 .header-nav-item a::after{
   content: '';
