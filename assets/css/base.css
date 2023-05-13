@@ -171,6 +171,9 @@ table, th, td {
 .photo-thucdon03{
   background: url(../imgs1/banh-xeo.jpeg) center center /cover no-repeat;
 }
+.photo-congty{
+  background: url(../imgs1/giayto.jpg) center center /cover no-repeat;
+}
 .capital{
   text-transform: capitalize;
   font-weight: 600;
